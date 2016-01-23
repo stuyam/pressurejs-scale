@@ -3,7 +3,9 @@ var saveZero = 0;
 
 Pressure.set('.force-container', {
   change: function(force, event){
+    console.log(saveZero);
     if(save){
+      console.log(save);
       saveZero = force;
       save = false;
     }
@@ -16,6 +18,7 @@ Pressure.set('.force-container', {
 
 $(function(){
   $('.zero').click(function(){
+    console.log(save);
     save = true;
   });
 });
