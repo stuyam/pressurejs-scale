@@ -1,3 +1,7 @@
+html, body{
+  font-family: "myriad-pro", sans-serif;
+}
+
 .page-container{
   position: absolute;
   top: 0;

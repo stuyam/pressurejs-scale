@@ -17,7 +17,7 @@ Pressure.set('.force-container', {
 });
 
 $(function(){
-  $('.zero').click(function(){
+  $('#zero').click(function(){
     console.log(save);
     save = true;
   });
