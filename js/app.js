@@ -17,6 +17,10 @@ Pressure.set('.force-container', {
 });
 
 $(function(){
+  // setTimeout(function(){
+  //   console.log(save);
+  //   save = true;
+  // }, 6000);
   $('#zero').click(function(){
     console.log(save);
     save = true;
