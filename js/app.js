@@ -7,7 +7,7 @@ Pressure.set('.force-container', {
       saveZero = force;
       save = false;
     }
-    document.getElementById('weight').innerHTML = Pressure.map(force - saveZero, 0, 1, 0, 300).toFixed(2) + 'g';
+    document.getElementById('weight').innerHTML = force;//Pressure.map(force - saveZero, 0, 1, 0, 300).toFixed(2) + 'g';
   },
   end: function(){
     document.getElementById('weight').innerHTML = '0.00g';
