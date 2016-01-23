@@ -40,6 +40,15 @@ a{
 .spoon{
   width: 70%;
   float: right;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none;
+  cursor: default;
 }
 
 .zero{
